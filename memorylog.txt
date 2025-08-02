@@ -1,0 +1,17 @@
+------Memory log------
+[MALLOC] Address = 0x7fffe3970690, Size = 40 bytes
+[CALLOC] Address = 0x7fffe39706e0, Size = 15 bytes
+[MALLOC] Address = 0x7fffe3970720, Size = 80 bytes
+[FREE ] Address = 0x7fffe3970690, Size = 40 bytes
+[REALLOC] Address = 0x7fffe39707a0, Size = 80 bytes
+[FREE ] Address = 0x7fffe39707a0, Size = 80 bytes
+[FREE ] Address = 0x7fffe3970720, Size = 80 bytes
+
+--- Freed Memory Blocks ---
+Address: 0x7fffe3970720, Size: 80 bytes
+Address: 0x7fffe39707a0, Size: 80 bytes
+Address: 0x7fffe3970690, Size: 40 bytes
+
+-----Memory leak------
+Address: 0x7fffe39706e0, Size: 15 bytes
+Total leaked memory: 15 bytes
